@@ -8,9 +8,47 @@
 <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">-->
     <title>Trillio - All in One Booking App</title>
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-hello world
+    <div class="container">
+        <header class="header">
+            <img src="images/logo.png" alt="project logo" class="logo">
+
+            <form action="">
+                <input type="text" class="search__input" placeholder="search hotels" />
+                <button class="search__button">
+                    <svg class="search__icon">
+                    <use xlink:href="images/svg/sprites/solid.svg#search"></use>
+                </svg></button>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="images/svg/sprites/solid.svg#bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="images/svg/sprites/solid.svg#comment-alt"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="images/Like%20a%20Boss%20hacker.jpg" alt="user profile picture"  class="user-nav__user-photo" />
+                    <span class="user-nav__user-name">imanuel</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                navigation
+            </nav>
+            <main class="hotel-view">
+                hotel view
+            </main>
+        </div>
+    </div>
 </body>
 </html>
